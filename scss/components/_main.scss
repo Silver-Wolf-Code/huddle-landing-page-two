@@ -1,0 +1,94 @@
+.main {
+
+  .main__container {
+    margin: 0 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -4px $GrayishBlue;
+    text-align: center;
+    padding: 55px 38px;
+    font-family: $Family-Poppins;
+    color: $Very-Dark-Cyan;
+    margin-bottom: 35px;
+
+    .main__fig {
+      width: 100%;
+      padding: 0 2px;
+      max-width: 600px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+
+      .main__img {
+        width: inherit;
+      }
+
+    }
+
+    .main__content {
+
+      .main__title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+
+      .main__copy {
+        font-size: 1.4rem;
+        color: $GrayishBlue;
+        max-width: 395px;
+        margin: 0 auto;
+        font-family: $Family-Open-Sans;
+      }
+
+    }
+
+  }
+
+  .main__container__two {
+    margin: 0 14px;
+    border-radius: 10px;
+    box-shadow: 0 -2px 10px -4px $GrayishBlue;
+    padding: 47px 0 40px 0;
+    text-align: center;
+    font-family: $Family-Poppins;
+    z-index: 99;
+    background: #fff;
+    position: relative;
+    bottom: -68px;
+
+    .main__content__two {
+
+      .main__title__two {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        color: $Very-Dark-Cyan;
+      }
+
+      .main__btn {
+        height: 40px;
+        width: 200px;
+        border-radius: 50px;
+        background: $Pink;
+        border: none;
+        color: #fff;
+        outline: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+
+        &:hover::after {
+          content: "";
+          width: 100%;
+          height: 100%;
+          background: rgba(255, 255, 255, 0.55);
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+      }
+
+    }
+
+  }
+
+}

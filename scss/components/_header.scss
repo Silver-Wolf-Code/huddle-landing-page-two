@@ -1,0 +1,119 @@
+.hero {
+  background: url(../img/bg-hero-mobile.svg), $Very-Pale-Cyan;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 30px;
+  margin-bottom: 55px;
+
+  .hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px 85px 15px;
+
+    .hero__fig {
+      width: 108px;
+
+      .hero__img {
+        width: inherit;
+      }
+
+    }
+
+    .hero__btn {
+      font-family: $Family-Poppins;
+      font-weight: 700;
+      border-radius: 50px;
+      border: none;
+      font-size: 1.2rem;
+      height: 25px;
+      width: 96px;
+      box-shadow: 0 0 8px -3px $GrayishBlue;
+      background: #fff;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+
+      &:hover::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.55);
+      }
+
+    }
+
+  }
+
+  .hero__container__two {
+    text-align: center;
+    padding: 0 35px;
+    font-family: $Family-Open-Sans;
+    color: $Very-Dark-Cyan;
+
+    .hero__content {
+      display: grid;
+      gap: 30px;
+      margin-bottom: 50px;
+
+      .hero__title {
+        font-size: 2.4rem;
+        font-family: $Family-Poppins;
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
+      .hero__copy {
+        max-width: 465px;
+        margin: 0 auto;
+      }
+
+      .hero__btn__two {
+        width: 240px;
+        height: 40px;
+        margin: 0 auto;
+        border-radius: 50px;
+        border: none;
+        background: $Pink;
+        color: #fff;
+        font-weight: 600;
+        outline: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+
+        &:hover::after{
+          content: "";
+          width: 100%;
+          height: 100%;
+          background: rgba(255, 255, 255, 0.4);
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+
+      }
+
+    }
+
+    .hero__fig__two {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+
+      .hero__img__two {
+        width: inherit;
+        filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.5));
+      }
+
+    }
+
+  }
+
+
+}

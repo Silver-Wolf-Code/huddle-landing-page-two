@@ -1,0 +1,77 @@
+.hero {
+  background: url(../img/bg-hero-desktop.svg), #ebfbff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .hero__container {
+  padding: 35px 25px 85px 25px;
+}
+
+.hero .hero__container .hero__fig {
+  width: 115px;
+}
+
+.hero .hero__container .hero__btn {
+  height: 30px;
+  width: 110px;
+  font-size: 1.3rem;
+}
+
+.hero .hero__container__two .hero__content .hero__title {
+  font-size: 2.8rem;
+  max-width: 350px;
+}
+
+.hero .hero__container__two .hero__content .hero__btn__two {
+  font-size: 1.3rem;
+}
+
+.main .main__container .main__content .main__title {
+  font-size: 2.2rem;
+}
+
+.main .main__container .main__content .main__copy {
+  font-size: 1.5rem;
+  max-width: 420px;
+}
+
+.main .main__container__two {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.main .main__container__two .main__content__two .main__title__two {
+  font-size: 2rem;
+}
+
+.main .main__container__two .main__content__two .main__btn {
+  font-size: 1.3rem;
+}
+
+.footer {
+  display: grid;
+  justify-content: space-around;
+}
+
+.footer .footer__fig {
+  grid-column: 1 / span 2;
+  height: 30px;
+}
+
+.footer .footer__container .footer_content .footer__copy {
+  padding-right: 30px;
+}
+
+.footer .footer__container__two .footer__content__two {
+  padding-left: 20px;
+}
+
+.footer .footer__container__three {
+  grid-column: 1 / 3;
+  text-align: left;
+}
+
+.footer .footer__container__three .footer__content__three {
+  justify-content: start;
+}

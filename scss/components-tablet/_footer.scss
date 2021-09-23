@@ -1,0 +1,43 @@
+.footer {
+  display: grid;
+  justify-content: space-around;
+
+  .footer__fig {
+    grid-column: 1 / span 2;
+    height: 30px;
+
+  }
+
+  .footer__container {
+
+    .footer_content {
+
+      .footer__copy {
+        padding-right: 30px;
+      }
+
+    }
+
+  }
+
+  .footer__container__two {
+
+    .footer__content__two {
+      padding-left: 20px;
+
+    }
+
+  }
+
+  .footer__container__three {
+    grid-column: 1 / 3;
+    text-align: left;
+
+    .footer__content__three {
+      justify-content: start;
+    }
+
+
+  }
+
+}

@@ -1,0 +1,71 @@
+.hero .hero__container {
+  padding: 35px 40px 85px 40px;
+}
+
+.hero .hero__container .hero__fig {
+  width: 130px;
+}
+
+.hero .hero__container .hero__btn {
+  width: 130px;
+}
+
+.hero .hero__container__two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: start;
+  gap: 40px;
+  padding: 0 40px;
+}
+
+.hero .hero__container__two .hero__content .hero__title {
+  margin: 0;
+}
+
+.hero .hero__container__two .hero__content .hero__copy {
+  margin: 0;
+}
+
+.hero .hero__container__two .hero__content .hero__btn__two {
+  margin: 0;
+}
+
+.main {
+  margin: 0 35px;
+}
+
+.main .main__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: start;
+  gap: 40px;
+  padding: 55px 38px 70px 55px;
+  max-width: 1220px;
+  margin: 0 auto 35px auto;
+}
+
+.main .main__container .main__content .main__copy {
+  margin: 0;
+}
+
+.main .main__container .main__content--mod {
+  order: -1;
+}
+
+.main .main__container__two {
+  max-width: 550px;
+  padding: 55px 45px;
+  margin: 0 auto;
+}
+
+.main .main__container__two .main__content__two .main__title__two {
+  font-size: 2.2rem;
+}
+
+.main .main__container__two .main__content__two .main__btn {
+  font-size: 1.4rem;
+  width: 250px;
+  height: 45px;
+}

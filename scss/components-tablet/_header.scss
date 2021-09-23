@@ -1,0 +1,39 @@
+.hero {
+  background: url(../img/bg-hero-desktop.svg), $Very-Pale-Cyan;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .hero__container {
+    padding: 35px 25px 85px 25px;
+
+    .hero__fig {
+      width: 115px;
+    }
+
+    .hero__btn {
+      height: 30px;
+      width: 110px;
+      font-size: 1.3rem;
+    }
+
+  }
+
+  .hero__container__two {
+
+    .hero__content {
+
+      .hero__title {
+        font-size: 2.8rem;
+        max-width: 350px;
+      }
+
+      .hero__btn__two {
+        font-size: 1.3rem;
+      }
+
+    }
+
+  }
+
+
+}

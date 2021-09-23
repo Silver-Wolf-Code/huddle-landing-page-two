@@ -1,0 +1,83 @@
+.hero .hero__container {
+  padding: 45px 65px 90px 65px;
+}
+
+.hero .hero__container .hero__fig {
+  width: 175px;
+}
+
+.hero .hero__container .hero__btn {
+  width: 165px;
+  height: 38px;
+  font-size: 1.3rem;
+}
+
+.hero .hero__container__two {
+  padding: 0 65px;
+  grid-template-columns: 1fr 1.3fr;
+}
+
+.hero .hero__container__two .hero__content .hero__title {
+  font-size: 3.8rem;
+  max-width: 440px;
+}
+
+.hero .hero__container__two .hero__content .hero__copy {
+  font-size: 1.7rem;
+  max-width: 490px;
+}
+
+.hero .hero__container__two .hero__content .hero__btn__two {
+  width: 265px;
+  font-size: 1.3rem;
+  height: 45px;
+}
+
+.hero .hero__container__two .hero__fig__two {
+  max-width: max-content;
+}
+
+.main .main__container .main__content .main__title {
+  font-size: 2.4rem;
+}
+
+.main .main__container .main__content .main__copy {
+  font-size: 1.6rem;
+}
+
+.main .main__container__two {
+  max-width: 650px;
+}
+
+.main .main__container__two .main__content__two .main__title__two {
+  font-size: 2.8rem;
+}
+
+.footer {
+  grid-template-columns: repeat(3, auto);
+  gap: 0 50px;
+  padding: 140px 80px 0 80px;
+}
+
+.footer .footer__fig {
+  grid-column: 1 / span 3;
+  height: 38px;
+}
+
+.footer .footer__container__two {
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+.footer .footer__container__three {
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer .footer__container__three .footer__three {
+  margin-bottom: 40px;
+}
